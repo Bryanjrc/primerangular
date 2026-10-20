@@ -4,13 +4,15 @@ import { App } from './app';
 import { PrimerComponent } from '../components/primercomponent/primer.component';
 import { HooksComponent } from '../components/hookscomponent/hooks.component';
 import { DeportesComponent } from '../components/deportescomponent/deportes.component';
+import { FormBindingComponent } from '../components/formsbindingcomponents/forms.binding.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     App, PrimerComponent
     , HooksComponent,
-    DeportesComponent
+    DeportesComponent,
+    FormBindingComponent
 
   ],
   imports: [
